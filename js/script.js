@@ -60,10 +60,3 @@ $(document).ready(function() {
         $('.menu__left_home a').removeClass('active');
     });
 });
-//scrollBar
-(function($){
-    $(window).on("load",function(){
-        $(".products").mCustomScrollbar();
-        theme:"minimal-dark"
-    });
-})(jQuery);

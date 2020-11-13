@@ -490,7 +490,6 @@ img {
   margin: 0 auto;
   position: relative;
   background: #F0F0F0;
-  overflow: hidden;
 }
 
 .slider {
@@ -866,6 +865,7 @@ img {
   -webkit-transition: all 1s ease 0s;
   -o-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
+  overflow: auto;
 }
 
 .right__menu_nav {
